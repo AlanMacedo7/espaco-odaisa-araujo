@@ -1,0 +1,145 @@
+body, html {
+    margin: 0; 
+    padding: 0;
+    height: 100%; 
+    overflow-x: hidden;
+
+}
+
+header{
+    background-color: #17BDB3;
+    color: whitesmoke;  
+    display: flex; /* Habilita o Flexbox */
+    justify-content: space-between; /* Espaça os itens do header */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px 20px; /* Adiciona um pouco de espaço interno */  
+    width: 100%;
+    z-index: 1000;
+       
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.convenios {
+    position: relative;
+    max-width: 800px; /* Ajuste conforme necessário */
+    margin: auto;
+    overflow: hidden; /* Esconde as imagens que estão fora do container */
+}
+
+.convenios-titulo, .servicos-prestados, .titulo {
+    text-align: center;
+    color: #17BDB3;
+    margin-top: 100px;
+
+}
+
+.container-top, .container-bottom {
+  display: flex; /* Usando flexbox para alinhar as divs lado a lado */
+  justify-content: space-around; /* Distribui o espaço entre as divs */
+  
+}
+
+.box {
+  width: 300px; /* Define a largura das caixas */
+  height: 250px; /* Define a altura das caixas */
+  border-radius: 25px;
+  margin: 10px; /* Adiciona uma margem para espaçamento */
+  text-align: center; /* Centraliza o texto na caixa */
+  background-color: #17BDB3;
+  color: whitesmoke;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  
+  
+}
+
+#quem-sou-eu{
+    display: block;  /* Faz a imagem ser tratada como um bloco */
+    margin: 0 auto; /* Adiciona margens automáticas, centralizando horizontalmente */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto;    /* Mantém a proporção original da imagem */
+    border-radius: 25%;
+    box-shadow: 5px 5px #17BDB3;;
+
+}
+
+iframe{
+    width: 330px; /* Define a largura das caixas */
+    height: 270px; /* Define a altura das caixas */
+
+}
+
+.footer {
+  background: #87d4e5;
+  color: white;
+  padding: 40px 20px 10px;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 20px;
+}
+
+.footer-info, .footer-contact, .footer-hours, .footer-map {
+  flex: 1 1 200px;
+  min-width: 250px;
+}
+
+.logo {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.footer-social a {
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  border-top: 1px solid white;
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer h4 {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+#alan{
+    font-size: 20px;
+
+}
+
+
+
