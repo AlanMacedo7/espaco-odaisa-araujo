@@ -1,6 +1,6 @@
 body, html {
     margin: 0; 
-    padding: 0;
+    padding: 0 ;
     height: 100%; 
     overflow-x: hidden;
 
@@ -16,6 +16,28 @@ header{
     width: 100%;
     z-index: 1000;
        
+}
+
+.agendador-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+
+}
+
+button.agendador{
+  background-color: #17BDB3 ;
+  justify-content: center;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  }
+
+button.agendador:hover{
+  background-color: #87d4e5 ;
+
 }
 
 .menu-toggle {
@@ -38,6 +60,7 @@ a {
     max-width: 800px; /* Ajuste conforme necessário */
     margin: auto;
     overflow: hidden; /* Esconde as imagens que estão fora do container */
+    margin-bottom: 40px;
 }
 
 .convenios-titulo, .servicos-prestados, .titulo {
@@ -49,7 +72,7 @@ a {
 
 .container-top, .container-bottom {
   display: flex; /* Usando flexbox para alinhar as divs lado a lado */
-  justify-content: space-around; /* Distribui o espaço entre as divs */
+  justify-content: center; 
   
 }
 
@@ -62,6 +85,9 @@ a {
   background-color: #17BDB3;
   color: whitesmoke;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  padding: 20px;
+
   
   
 }
@@ -83,7 +109,7 @@ iframe{
 }
 
 .footer {
-  background: #87d4e5;
+  background: #17BDB3;
   color: white;
   padding: 40px 20px 10px;
   font-family: sans-serif;
@@ -101,6 +127,10 @@ iframe{
 .footer-info, .footer-contact, .footer-hours, .footer-map {
   flex: 1 1 200px;
   min-width: 250px;
+}
+
+.footer-info{
+  text-align: center;
 }
 
 .logo {
