@@ -61,6 +61,7 @@ a {
     margin: auto;
     overflow: hidden; /* Esconde as imagens que estão fora do container */
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .convenios-titulo, .servicos-prestados, .titulo {
