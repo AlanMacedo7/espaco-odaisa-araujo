@@ -67,15 +67,14 @@ a {
 .convenios-titulo, .servicos-prestados, .titulo {
     text-align: center;
     color: #17BDB3;
-    margin-top: 100px;
+    margin-top: 40px;
 
 }
 
 .container-top, .container-bottom {
   display: flex; /* Usando flexbox para alinhar as divs lado a lado */
   justify-content: center; 
-  
-}
+   }
 
 .box {
   width: 300px; /* Define a largura das caixas */
@@ -99,7 +98,7 @@ a {
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
     height: auto;    /* Mantém a proporção original da imagem */
     border-radius: 25%;
-    box-shadow: 5px 5px #17BDB3;;
+    box-shadow: 5px 5px #17BDB3;
 
 }
 
@@ -172,5 +171,38 @@ iframe{
 
 }
 
+@media (max-width: 900px) {
 
+  .box {
+  width: 240vh; /* Define a largura das caixas */
+  height: 50vw; /* Define a altura das caixas */
+  border-radius: 25px;
+  margin: 1vh; /* Adiciona uma margem para espaçamento */
+  text-align: center; /* Centraliza o texto na caixa */
+  background-color: #17BDB3;
+  color: whitesmoke;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  padding: 5px;
+ 
+}
+  #quem-sou-eu{
+    display: block;  /* Faz a imagem ser tratada como um bloco */
+    margin: 0 auto; /* Adiciona margens automáticas, centralizando horizontalmente */
+    max-width: 90%; /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto;    /* Mantém a proporção original da imagem */
+    border-radius: 25%;
+    box-shadow: 5px 5px #17BDB3;
 
+}
+
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    text-align: center;
+
+  }
+
+}
